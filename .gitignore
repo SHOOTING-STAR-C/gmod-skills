@@ -1,0 +1,21 @@
+# 本地环境与敏感配置
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# 编辑器和操作系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 本地生成产物
+/artifacts/
+/dist/
+/tmp/
+
